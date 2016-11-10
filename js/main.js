@@ -3,7 +3,7 @@ function fibonacci(n) {
   var a=0;
   var b=1;
   var c;
-    for ( n; n>0; n--) {
+    for ( var i = n; i > 0; i--) {
         c = b;
         b = b + a;
         a = c; 
